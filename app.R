@@ -142,13 +142,18 @@ ui <- navbarPage(inverse = TRUE, "Navigating the Electric Future",
                  tabPanel("Summary takeaways & About Page",
                           fluidPage(
                                                   br(),
-                                                  p("Electric vehicles play an important role in environmental sustainability, and our Shiny app has revealed an important insight: 
-                                                    lower greenhouse gas emissions are associated with more EV adoption in Washington. 
-                                                    Important for environmental policymaking is this discovery, which came from looking at data from Washington State's EV Population Data 
-                                                    and GHG Reporting Program. The combination of Shiny's interactive features with R code for data processing and visualization has proven 
-                                                    the great utility of dynamic data presentation. It provides a captivating and easy way to explain complicated information. "),
+                                                  p("The data analysis process involved examining the adoption of electric vehicles (EVs) and their impact on greenhouse gas (GHG) emissions in Washington State. 
+                                                  By employing various data story types such as 'Change Over Time', 'Contrasting', and 'Intersections', we created visualizations to illustrate the trends and impacts. 
+                                                  The scatter plot for Chapter 3 provided a clear visual of how EV adoption has increased over the years, with denser data points indicating a rise in recent years, likely influenced by policy initiatives. 
+                                                  This analysis underscores the importance of policies in promoting sustainable practices."),
+                                                  
+                                                  p("Electric vehicles play an important role in environmental sustainability, and our Shiny app has revealed an important insight: lower greenhouse gas emissions are associated with more EV adoption in Washington. 
+                                                    Important for environmental policymaking is this discovery, which came from looking at data from Washington State's EV Population Data and GHG Reporting Program. The combination of Shiny's interactive features with R code for data processing and visualization has proven the great utility of dynamic data presentation. 
+                                                    It provides a captivating and easy way to explain complicated information."),
                                                   br(),
-                                                  #p("References: "),
+                                                  p("References: Jones, Ben. \"Seven Data Story Types.\" YouTube, 2015, https://www.youtube.com/watch?v=sEZj-eUfbNo.
+                                                  
+                                                    \"Electric Vehicle Population Data.\" Data.gov, State of Washington, 17 Nov. 2023, https://catalog.data.gov/dataset/electric-vehicle-population-data."),
                                                   #br(),
                                                   #br(),
                           )
